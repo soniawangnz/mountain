@@ -1,0 +1,198 @@
+h1 {
+    color: black;
+    font-family: 'Ubuntu';
+    padding-top: 100px;
+    font-size: 60px;
+    padding-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    justify-content: center;
+    /* width: 400px;
+    height: 300px; */
+    /* align-items: center;
+    display: flex; */
+}
+
+p {
+    font-family: 'Ubuntu';
+    padding-left: 90px;
+    padding-right: 5px;
+    font-weight: lighter;
+}
+
+h3{
+    padding-left: 80px;
+}
+
+.boxes{
+    opacity: 0.75;
+}
+
+.box1{
+    position: absolute;
+    left: 860px;
+    background-color: #d3f19a;
+    width: 120px;
+    height: 40px;
+    bottom: 560px;
+    transform: rotate(-45deg)
+}
+
+.box2{
+    position: absolute;
+    left: 1220px;
+    background-color: #d3f19a;
+    width: 120px;
+    height: 40px;
+    bottom: 100px;
+    transform: rotate(-45deg)
+}
+
+.box3{
+    position: absolute;
+    left: 1220px;
+    background-color: #d3f19a;
+    width: 120px;
+    height: 40px;
+    bottom: 560px;
+    transform: rotate(45deg)
+}
+
+.box4{
+    position: absolute;
+    left: 860px;
+    background-color: #d3f19a;
+    width: 120px;
+    height: 40px;
+    bottom: 100px;
+    transform: rotate(45deg)
+}
+
+
+.refresh{
+    position: fixed;
+    top: 600px;
+    left: 90px;
+    background-color: #d3f19a;
+    border: 2px solid #d3f19a;
+
+}
+
+.refresh:hover{
+    background-color: white;
+    border: 2px solid  #d3f19a;
+}
+
+  :root {
+    --mainColor: #d3f19a;
+  }
+  
+  
+  a {
+    background:
+       linear-gradient(
+         to bottom, var(--mainColor) 0%,
+         var(--mainColor) 100%
+       );
+      background-position: 0 100%;
+      background-repeat: repeat-x;
+      background-size: 4px 4px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .2s;
+  }
+  
+  a:hover {
+    background-size: 100px 50px;
+  }
+
+
+button {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #d3f19a;
+    color: rgb(32, 32, 32);
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    animation: rotate360 1.2s linear infinite;  /* animation set */
+    animation-play-state: paused;               /* but paused */
+  }
+
+  .bubs{
+      padding-left: 90px;
+      padding-top: 10px;
+  }
+
+  button:hover{
+    /* animation-play-state: running;              trigger on hover */
+    background-color: #d3f19a;
+    color: black;
+}
+  /* @keyframes rotate360 {
+    to { transform: rotate(360deg); }           
+  } */
+
+.container {
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    left: 900px;
+    bottom: 100px;
+    border: 2px solid black; 
+    position: absolute;
+    /* z-index: 5; */
+    
+}
+
+
+
+/* .container1 {
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    border: 2px solid green;
+    position: absolute;
+    z-index: 5;
+} */
+
+.titleClass
+{
+    font-size:24px;
+    font-family: 'Ubuntu';
+}
+
+.descriptionClass
+{
+    font-size:14px;
+    font-family: 'Ubuntu';
+    font-weight: lighter;
+}
+
+
+.imageClass {
+    width: 100%;
+}
+.fire{
+    width: 150px;
+    animation: workss 1s infinite;
+    padding-top: 30px;
+    padding-left: 70px;
+}
+
+@keyframes workss {
+0% {transform: scale(0.001)};
+50% {transform: scale(3)};
+
+}*/
+
+.fire:hover {
+    /* Toggle our animation play state to running when we are hovering over our sticker */
+    animation-play-state: running;
+  }
+
+.st0{stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
